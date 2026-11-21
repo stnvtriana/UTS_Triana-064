@@ -1,5 +1,7 @@
 
-<?= $this->include('layout/header', ['title' => 'Modul 3']) ?>
+<?= $this->extend('Layout/main') ?>
+
+<?= $this->section('content') ?>
 
 <section class="page-heading">
     <p class="eyebrow">HASIL PEMBELAJARAN</p>
@@ -45,4 +47,4 @@
     ← Kembali ke Portofolio
 </a>
 
-<?= $this->include('Layout/footer') ?>
+<?= $this->endSection() ?>

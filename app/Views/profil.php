@@ -1,5 +1,6 @@
+<?= $this->extend('Layout/main') ?>
 
-<?= $this->include('Layout/header', ['title' => 'Profil Siti Novi Triana']) ?>
+<?= $this->section('content') ?>
 
 <section class="profile-panel text-center">
 
@@ -52,4 +53,4 @@
     ← Kembali ke Home
 </a>
 
-<?= $this->include('Layout/footer') ?>
+<?= $this->endSection() ?>

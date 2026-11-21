@@ -54,6 +54,17 @@
             </div>
         </article>
     </div>
+
+    <div class="col-md-6 col-lg-3">
+    <div class="feature-card">
+        <div class="feature-icon">✦</div>
+        <h2>About Me</h2>
+        <p>Kenali lebih jauh tentang diri dan perjalanan belajar saya.</p>
+        <a href="<?= site_url('about') ?>" class="btn btn-maroon">
+            Tentang Saya →
+        </a>
+    </div>
+</div>
 </section>
 
 <?= $this->endSection() ?>

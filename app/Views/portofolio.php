@@ -1,4 +1,6 @@
-<?= $this->include('Layout/header', ['title' => 'Portofolio']) ?>
+<?= $this->extend('Layout/main') ?>
+
+<?= $this->section('content') ?>
 
 <section class="page-heading">
     <p class="eyebrow">HASIL PEMBELAJARAN</p>
@@ -24,4 +26,6 @@
     ← Kembali ke Home
 </a>
 
-<?= $this->include('Layout/footer') ?>
+
+<?= $this->endSection() ?>
+

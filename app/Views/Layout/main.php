@@ -1,5 +1,27 @@
-<?= $this->include('Layout/header') ?>
 
-<?= $this->renderSection('content') ?>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<?= $this->include('Layout/footer') ?>
+    <title><?= esc($title ?? 'Siti Novi Triana') ?></title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- CSS Website -->
+    <link rel="stylesheet" href="<?= base_url('css/style.css') ?>">
+</head>
+
+<body>
+
+    <!-- Isi halaman -->
+    <?= $this->renderSection('content') ?>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,4 +1,6 @@
-<?= $this->include('Layout/header', ['title' => 'Modul 7']) ?>
+<?= $this->extend('Layout/main') ?>
+
+<?= $this->section('content') ?>
 
 <section class="page-heading">
     <p class="eyebrow">HASIL PEMBELAJARAN</p>
@@ -29,4 +31,5 @@
 
 <a class="btn btn-maroon mt-4" href="<?= site_url('portofolio') ?>">← Kembali ke Portofolio</a>
 
-<?= $this->include('Layout/footer') ?>
+<?= $this->endSection() ?>
+
