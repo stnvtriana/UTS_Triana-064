@@ -1,0 +1,416 @@
+
+/* =====================================
+   PENGATURAN DASAR
+===================================== */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+body {
+    background-color: #f8f3ef;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+p {
+    text-align: justify;
+}
+
+
+/* =====================================
+   HEADER DAN MENU
+===================================== */
+
+#box {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+#header {
+    background-color: #692923;
+    color: white;
+    padding: 25px;
+}
+
+#menubar {
+    background-color: #e9d8d0;
+    padding: 15px;
+}
+
+#menubar a {
+    text-decoration: none;
+    color: #692923;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+#menubar a:hover {
+    color: #b66b60;
+}
+
+.teksmenu {
+    text-decoration: none;
+}
+
+
+/* =====================================
+   CONTENT DAN FOOTER
+===================================== */
+
+#content {
+    background-color: #f8f3ef;
+    padding: 35px 20px;
+}
+
+#footer {
+    background-color: #692923;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* =====================================
+   KOTAK LINK PRAKTIKUM
+===================================== */
+
+.link-praktikum {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.link-praktikum a {
+    display: block;
+    background-color: #692923;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.link-praktikum a:hover {
+    background-color: #b66b60;
+    transform: translateY(-5px);
+}
+
+
+/* =====================================
+   JUDUL DAN PARAGRAF
+===================================== */
+
+h1, h2, h3 {
+    color: #692923;
+}
+
+.eyebrow {
+    color: #79513e;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.page-heading {
+    background-color: white;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 15px;
+}
+
+
+/* =====================================
+   DESAIN LOGIN
+===================================== */
+
+.login-panel {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 450px;
+    margin: 80px auto;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =====================================
+   DESAIN PROFIL
+===================================== */
+
+.profile-panel {
+    background-color: #ffffff;
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 20px;
+    border-top: 7px solid #692923;
+    box-shadow: 0 5px 20px rgba(105, 41, 35, 0.12);
+}
+
+.profile-panel h1 {
+    color: #692923;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+/* FOTO PROFIL */
+
+.profile-picture {
+    display: block;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #e9d8d0;
+    padding: 4px;
+    background-color: white;
+    margin: 15px auto 25px;
+}
+
+
+/* INFORMASI PROFIL */
+
+.profile-details {
+    background-color: #f8f3ef;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.profile-details p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 12px;
+    border-bottom: 1px solid #e9d8d0;
+    margin: 0;
+}
+
+.profile-details strong {
+    color: #692923;
+}
+
+.profile-details span {
+    color: #444444;
+}
+
+
+/* DESKRIPSI PROFIL */
+
+.profile-description {
+    background-color: #fff9f6;
+    border-left: 5px solid #692923;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 25px;
+    color: #555555;
+}
+
+
+/* =====================================
+   TOMBOL
+===================================== */
+
+.btn-maroon {
+    display: inline-block;
+    background-color: #692923;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.btn-maroon:hover {
+    background-color: #431916;
+    color: white;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #692923;
+    text-decoration: none;
+}
+
+
+/* =====================================
+   KARTU MODUL
+===================================== */
+
+.module-card {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    color: #692923;
+    text-decoration: none;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.module-card:hover {
+    background-color: #f5e4d7;
+}
+
+.module-icon {
+    font-size: 28px;
+    color: #692923;
+}
+
+
+/* =====================================
+   KARTU UMUM
+===================================== */
+
+.card {
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    height: 100%;
+}
+
+
+/* =====================================
+   MODUL 3
+===================================== */
+
+/* Card utama Modul 3 */
+
+.modul3-card {
+    cursor: pointer;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    color: #692923;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.modul3-card:hover {
+    background-color: #f5e4d7;
+}
+
+
+/* Daftar card latihan Modul 3 */
+
+.daftar-modul3 {
+    display: none;
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #f8f3ef;
+    border: 2px solid #692923;
+    border-radius: 12px;
+}
+
+/* Muncul ketika Modul 3 diklik */
+
+.daftar-modul3.tampil {
+    display: block;
+}
+
+.daftar-modul3 h3 {
+    color: #692923;
+    margin-bottom: 20px;
+}
+
+
+/* Card masing-masing latihan */
+
+.sub-module-card {
+    display: block;
+    background-color: #692923;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.sub-module-card:hover {
+    background-color: #e9d8d0;
+    color: #692923;
+    transform: translateY(-3px);
+}
+
+
+/* =====================================
+   RESPONSIVE
+===================================== */
+
+@media (max-width: 768px) {
+
+    #box {
+        width: 100%;
+    }
+
+    .content-panel,
+    .login-panel,
+    .profile-panel {
+        margin: 15px;
+        padding: 20px;
+    }
+
+    .profile-details p {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+    }
+
+    .profile-picture {
+        width: 150px;
+        height: 150px;
+    }
+
+    .link-praktikum {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .modul3-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .daftar-modul3 {
+        padding: 15px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .link-praktikum {
+        grid-template-columns: 1fr;
+    }
+
+    .page-heading {
+        padding: 20px;
+        margin: 15px auto;
+    }
+
+    .sub-module-card {
+        padding: 15px;
+    }
+
+}

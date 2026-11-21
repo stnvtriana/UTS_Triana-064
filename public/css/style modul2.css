@@ -1,0 +1,195 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-align: justify;
+}
+#box{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+#header{
+    background-color:rgb(214, 117, 117);
+    padding: 20px;
+}
+#menubar{
+    background-color: #e4cdcd;
+    padding: auto;
+}
+.teksmenu{
+    text-decoration: none;
+}
+#content{
+    padding: 20px;
+}
+#footer{
+    background-color: #e4cdcd;
+    padding: 20px;
+}
+#menubar a{
+    text-decoration : none;
+    color: #890505 ;
+    
+}
+#menubar a:hover{
+    color : #d16a6a ;
+}
+.teksmenu{
+    text-decoration: none;
+}
+
+#content{
+    padding: 20px;
+}
+
+#footer{
+    background-color:  #e3d3cb;
+    padding: 20px;
+}
+
+
+/* ===== DESAIN HALAMAN PROFIL ===== */
+
+.profile-panel {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border-top: 7px solid #692923;
+    box-shadow: 0 5px 20px rgba(105, 41, 35, 0.12);
+}
+
+/* JUDUL PROFIL */
+.profile-panel h1 {
+    color: #692923;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* FOTO PROFIL */
+#image {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 6px solid #692923;
+    padding: 4px;
+    background: #ffffff;
+    margin: 15px auto 25px;
+    border-radius: 20%;
+    border-color: brown;
+    border-width: 5px;
+    border-style: solid;
+}
+
+/* INFORMASI PROFIL */
+.profile-details {
+    background-color: #f8f3ef;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.profile-details p {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 12px;
+    border-bottom: 1px solid #e9d8d0;
+    margin: 0;
+}
+
+.profile-details strong {
+    color: #692923;
+}
+
+.profile-details span {
+    color: #444444;
+}
+
+/* DESKRIPSI */
+.profile-description {
+    background-color: #fff9f6;
+    border-left: 5px solid #692923;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 25px;
+    color: #555555;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .profile-panel {
+        margin: 20px 12px;
+        padding: 20px;
+    }
+
+    .profile-details p {
+        flex-direction: column;
+        gap: 3px;
+    }
+
+    
+        body{
+            margin: 0;
+            padding: 0;
+            font-style:inherit;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: rgb(245, 236, 236);
+        
+        }
+        #h1{
+            background-color:  #e3d3cb; color: rgb(126, 49, 49);
+            text-align: center;
+               
+        }
+        #header{
+            background-color: rgb(214, 117, 117);
+            align-items: center;
+            text-align: center;
+        }
+        #p{
+            background-color:  #e3d3cb; color: rgb(126, 49, 49); 
+            border-color: brown;
+            border-width: 3px;
+            border-style: solid;
+        }
+    
+        #div{
+            background-color: rgb(227, 211, 203);
+            width: 50px;
+            height: 25px;
+            text-align: center;
+            text-emphasis-color: calc(50% + 50%);
+            border-radius: 5px;
+            margin: 50px auto;
+    
+        }
+        #a{
+            text-decoration: none;
+            color: rgb(131, 60, 60);
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #div1{
+            background-color: rgb(227, 211, 203); color: rgb(126, 49, 49); 
+            width: 350px; 
+            padding: 20px;
+            margin: 50px auto;
+            text-align: left;
+            border-radius: 10px;
+            border-color: brown;
+            border-width: 5px;
+            border-style: solid;
+            }
+}
